@@ -1,0 +1,43 @@
+.main div{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+h1 {
+  color: #092768aa;
+}
+
+#instructions{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-size: large;
+  color: rgb(255, 255, 255);
+  width: 30em;
+  height: fit-content;
+  font-family: 'Courier New', Courier, monospace;
+  margin: .5em;
+  background-color: rgba(0, 0, 0, 0.516);
+  padding: .3em;
+  border-style: solid; 
+  border-radius: 10px;
+  border-color: #092768;
+  border-width: .07em; 
+}
+
+#instructions div{
+margin: .5em;
+background-color: rgba(0, 0, 0, 0.516);
+padding: .3em;
+border-style: solid; 
+border-radius: 7px;
+border-color: #092768;
+border-width: .07em; 
+font-weight: 700;
+}
+#top {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

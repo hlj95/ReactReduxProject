@@ -1,0 +1,42 @@
+.Nav {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    color: rgba(255, 255, 255, 0.591);
+    background-color:  rgba(0, 0, 0, 0.516);
+    border-style: none; 
+    border-radius: 15px;
+    border-width: .07em; 
+}
+.home {
+    color: rgb(255, 255, 255);
+    margin:.5em;
+    padding: .5em;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+}
+a:link {
+    text-decoration: none;
+}
+.addaGoal {
+    margin:.5em;
+    padding: .5em;    
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+
+}
+.Goals {
+   margin:.5em;
+    padding: .5em;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+
+}

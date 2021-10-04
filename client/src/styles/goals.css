@@ -1,0 +1,56 @@
+.header {
+    font-size: xxx-large;
+    color: #092768aa;
+    font-family: 'Courier New', Courier, monospace;
+}
+.Goals{
+    list-style: none;
+    overflow: scroll;
+}
+ul {
+    list-style: none;
+}
+.goalsList {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    list-style: none;
+    overflow: scroll;
+}
+#goal {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.534);
+    border-radius: 15px;
+    border-width: .7em;
+    border-style: none;
+    padding: 15px;
+    font-size:small;
+    text-align: left;
+    overflow: scroll;
+    height: 42em;
+    width: 37em;
+    margin: 1em;
+    font-family:'Courier New', Courier, monospace;
+}
+button{
+    font-size: xx-large;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(74, 12, 155, 0.753);
+
+}
+
+#goal div {
+    color: rgb(0, 0, 0);
+}
+
+#db {
+    color: rgb(255, 255, 255);
+    font-size: large;
+}
