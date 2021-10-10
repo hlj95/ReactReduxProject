@@ -4,7 +4,6 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    overflow: scroll;
     width: fit-content;
 
 }
@@ -81,4 +80,57 @@ h4 {
 #mainTitle {
     background-color: rgba(250, 235, 215, 0);
     border-style: none;
+}
+
+@media only screen and (min-width:100px) and (max-width:415px) {
+    #body {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: fit-content;
+    }
+    input{
+        width: 12em;
+    }
+    #define{
+        width: 8em;
+    }
+}
+
+@media only screen and (min-width:416px)and (max-width:767px){
+    #body {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: fit-content;
+    }
+
+    input{
+        width: 15em;
+    }
+    #define{
+        width: 10em;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    #body {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: fit-content;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    #body {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: fit-content;
+    }
 }

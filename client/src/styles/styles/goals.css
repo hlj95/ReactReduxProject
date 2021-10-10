@@ -1,39 +1,36 @@
-.header {
+.headerGoal {
     font-size: xxx-large;
     color: #092768aa;
     font-family: 'Courier New', Courier, monospace;
-}
-.Goals{
-    list-style: none;
-    overflow: scroll;
+    text-align: center;
 }
 ul {
     list-style: none;
+    display: flex;
+
 }
-.goalsList {
+#goalul {
+    margin-right:2em;
+}
+.goalsList div{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    list-style: none;
-    justify-content: space-evenly;
-    list-style: none;
-    overflow: scroll;
-}
-#goal {
-    color: rgb(255, 255, 255);
-    display: flex;
     flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.534);
+    align-self: auto;
+    list-style: none;
+    width:30em;
+}
+
+#goalss {
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.808);
     border-radius: 15px;
     border-width: .7em;
     border-style: none;
     padding: 15px;
-    font-size:small;
-    text-align: left;
+    font-size:large;
     overflow: scroll;
-    height: 42em;
-    width: 37em;
-    margin: 1em;
+    height: 35em;
     font-family:'Courier New', Courier, monospace;
 }
 button{
@@ -51,6 +48,23 @@ button{
 }
 
 #db {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: large;
+}
+
+
+@media only screen and (min-width:100px) and (max-width:415px) {
+
+}
+
+@media only screen and (min-width:416px)and (max-width:767px){
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+
 }

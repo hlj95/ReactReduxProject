@@ -1,7 +1,7 @@
 import { connect } from "react-redux";
 import { useState } from "react";
 import * as actionCreators from "../store/creators/actionCreators";
-import '../styles/addGoal.css'
+import '../styles/styles/addGoal.css'
 
 function AddGoal(props) {
 

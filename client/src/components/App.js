@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles/App.css'
+import '../styles/styles/App.css'
 
 
 
@@ -30,7 +30,7 @@ function App() {
             6. Read your goals outloud, twice daily, once just before going to bed, and once after waking up.
           </div>
         </div>
-        <div id="nh"><iframe width="570" height="370" src="https://www.youtube.com/embed/8kgvSNl2J9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div id="nh"><iframe src="https://www.youtube.com/embed/8kgvSNl2J9M" title="YouTube video player" frameBorder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe></div>
         
       </div>
     </div>

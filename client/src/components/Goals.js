@@ -2,7 +2,7 @@
 import { connect } from 'react-redux';
 import { useEffect } from 'react';
 import * as actionCreators from '../store/creators/actionCreators';
-import '../styles/goals.css'
+import '../styles/styles/goals.css'
 
 function Goals(props) {
 
@@ -21,10 +21,10 @@ function Goals(props) {
     }
 
     const goalItems = props.goals.map(goal => {
-        return <ul id="">
+        return <ul id="goalul">
             
             <li key= {goal.id} >
-            <div id="goal" >
+            <div id="goalss" >
                 <h2>MAIN GOAL</h2>
             <div >WHAT I WANT : </div>
             <div id="db">{goal.title}</div><br></br>
@@ -79,14 +79,15 @@ function Goals(props) {
             <div>WHAT I WILL DO (IN DETAIL) : </div>
             <div id="db">{goal.sg4gd}</div><br></br>
             <br></br>            
-            <button onClick = {() => handleGoalDelete(goal)}>Delete</button>
             </div>
+                        <button onClick = {() => handleGoalDelete(goal)}>Delete</button>
+
         </li></ul>
     })
 
     return (
-        <div className="Goals">
-            <div className="header">Goals</div>
+        <div className="GoalsPage">
+            <div className="headerGoal">Goals</div>
             <div className="goalsList">{goalItems}</div>
         </div>
     )

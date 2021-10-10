@@ -1,0 +1,67 @@
+body {
+    background-image: url("./images/justin-w-3lOS6YMbHsY-unsplash.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#layout {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap ;
+    align-items: center;
+}
+
+@media only screen and (min-width:100px) and (max-width:415px) {
+    #layout div{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap ;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width:416px)and (max-width:767px) {
+    #layout div{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap ;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    #layout div{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap ;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+    #layout div{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap ;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 90%;
+    }
+}
+
+
+

@@ -1,5 +1,5 @@
 import Navbar from './Navbar'
-import '../styles/baselayout.css'
+import '../styles/styles/baselayout.css'
 
 function BaseLayout(props) {
     return (
